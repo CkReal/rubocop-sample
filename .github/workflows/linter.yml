@@ -20,7 +20,7 @@ jobs:
           ruby-version: 2.7.3
       - name: rubocop
         #uses: reviewdog/action-rubocop@v1
-        uses: CkReal/action-rubocop@main
+        uses: CkReal/action-rubocop@v1.8.4-beta
         with:
           rubocop_version: gemfile
           github_token: ${{ secrets.github_token }}
